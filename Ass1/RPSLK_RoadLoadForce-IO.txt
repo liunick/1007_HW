@@ -1,0 +1,400 @@
+INPUT/OUTPUT - Nicholas Liu (nl2523)
+
+ROADLOADFORCE TEST
+Input CdA (m^2): 10
+Input CRR: 10
+Input velocity (m/s): 10
+Input mass (kg): 10
+Road Load Force is: 1630.0 Newtons
+
+
+RPSLK TEST
+
+(WITH NO AUTOMATION AND NO AI)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): n
+Would you like the computer to have AI? (y/n): n
+Please input your throw: r
+The computer chose: k
+The computer has won!
+Please input your throw: p
+The computer chose: k
+The player has won!
+Please input your throw: s
+The computer chose: k
+The computer has won!
+Please input your throw: l
+The computer chose: k
+The player has won!
+Please input your throw: z
+The computer chose: k
+
+
+The game was played 4 times.
+The player won 2 times or 50.00% of the time
+The computer won 2 times or 50.00% of the time
+The player and computer tied 0 times or 0.00% of the time
+
+
+(WITH NO AUTOMATION AND YES AI)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): n
+Would you like the computer to have AI? (y/n): y
+Please input your throw: r
+The computer chose: s
+The player has won!
+Please input your throw: p
+The computer chose: p
+There is a tie!
+Please input your throw: p
+The computer chose: s
+The computer has won!
+Please input your throw: p
+The computer chose: s
+The computer has won!
+Please input your throw: p
+The computer chose: s
+The computer has won!
+Please input your throw: s
+The computer chose: s
+There is a tie!
+Please input your throw: p
+The computer chose: s
+The computer has won!
+Please input your throw: z
+The computer chose: s
+
+
+The game was played 7 times.
+The player won 1 times or 14.29% of the time
+The computer won 4 times or 57.14% of the time
+The player and computer tied 2 times or 28.57% of the time
+
+
+(WITH AUTOMATION AND NO AI - REPEATER)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): y
+Would you like the computer to have AI? (y/n): n
+1. Repeater: User throws same choice everytime. 
+2. Rotater: User throws cyclically. 
+3. Reflector: User throws whatever the system threw last round.
+4. Randomizer: User throws randomly.
+5. Mixer: User throws a different strategy every 5 throws.
+Please choose a user (1-5): 
+1
+How many rounds do you want the user to play: 1000
+1000 games were played.
+The player won 391 games or 39.10% of the time.
+The computer won 424 games or 42.40% of the time.
+There were 185 tied games or 18.50% of the time.
+
+(WITH AUTOMATION AND YES AI - REPEATER)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): y
+Would you like the computer to have AI? (y/n): y
+1. Repeater: User throws same choice everytime. 
+2. Rotater: User throws cyclically. 
+3. Reflector: User throws whatever the system threw last round.
+4. Randomizer: User throws randomly.
+5. Mixer: User throws a different strategy every 5 throws.
+Please choose a user (1-5): 
+1
+How many rounds do you want the user to play: 1000
+1000 games were played.
+The player won 1 games or 0.10% of the time.
+The computer won 999 games or 99.90% of the time.
+There were 0 tied games or 0.00% of the time.
+
+(WITH AUTOMATION AND NO AI - REFLECTER)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): y
+Would you like the computer to have AI? (y/n): n
+1. Repeater: User throws same choice everytime. 
+2. Rotater: User throws cyclically. 
+3. Reflector: User throws whatever the system threw last round.
+4. Randomizer: User throws randomly.
+5. Mixer: User throws a different strategy every 5 throws.
+Please choose a user (1-5): 
+3
+How many rounds do you want the user to play: 1000
+1000 games were played.
+The player won 380 games or 38.00% of the time.
+The computer won 419 games or 41.90% of the time.
+There were 201 tied games or 20.10% of the time.
+
+(WITH AUTOMATION AND YES AI - REFLECTER)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): y
+Would you like the computer to have AI? (y/n): y
+1. Repeater: User throws same choice everytime. 
+2. Rotater: User throws cyclically. 
+3. Reflector: User throws whatever the system threw last round.
+4. Randomizer: User throws randomly.
+5. Mixer: User throws a different strategy every 5 throws.
+Please choose a user (1-5): 
+3
+How many rounds do you want the user to play: 1000
+1000 games were played.
+The player won 1 games or 0.10% of the time.
+The computer won 250 games or 25.00% of the time.
+There were 749 tied games or 74.90% of the time.
+
+
+(WITH AUTOMATION AND NO AI - Rotater)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): y
+Would you like the computer to have AI? (y/n): n
+1. Repeater: User throws same choice everytime. 
+2. Rotater: User throws cyclically. 
+3. Reflector: User throws whatever the system threw last round.
+4. Randomizer: User throws randomly.
+5. Mixer: User throws a different strategy every 5 throws.
+Please choose a user (1-5): 
+2
+How many rounds do you want the user to play: 1000
+1000 games were played.
+The player won 332 games or 33.20% of the time.
+The computer won 478 games or 47.80% of the time.
+There were 190 tied games or 19.00% of the time.
+
+(WITH AUTOMATION AND YES AI - Rotater)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): y
+Would you like the computer to have AI? (y/n): y
+1. Repeater: User throws same choice everytime. 
+2. Rotater: User throws cyclically. 
+3. Reflector: User throws whatever the system threw last round.
+4. Randomizer: User throws randomly.
+5. Mixer: User throws a different strategy every 5 throws.
+Please choose a user (1-5): 
+2
+How many rounds do you want the user to play: 1000
+1000 games were played.
+The player won 200 games or 20.00% of the time.
+The computer won 400 games or 40.00% of the time.
+There were 400 tied games or 40.00% of the time.
+
+
+(WITH AUTOMATION AND NO AI - Randomizer)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): y
+Would you like the computer to have AI? (y/n): n
+1. Repeater: User throws same choice everytime. 
+2. Rotater: User throws cyclically. 
+3. Reflector: User throws whatever the system threw last round.
+4. Randomizer: User throws randomly.
+5. Mixer: User throws a different strategy every 5 throws.
+Please choose a user (1-5): 
+4
+How many rounds do you want the user to play: 1000
+1000 games were played.
+The player won 356 games or 35.60% of the time.
+The computer won 445 games or 44.50% of the time.
+There were 199 tied games or 19.90% of the time.
+
+(WITH AUTOMATION AND YES AI - Randomizer)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): y
+Would you like the computer to have AI? (y/n): y
+1. Repeater: User throws same choice everytime. 
+2. Rotater: User throws cyclically. 
+3. Reflector: User throws whatever the system threw last round.
+4. Randomizer: User throws randomly.
+5. Mixer: User throws a different strategy every 5 throws.
+Please choose a user (1-5): 
+4
+How many rounds do you want the user to play: 1000
+1000 games were played.
+The player won 415 games or 41.50% of the time.
+The computer won 412 games or 41.20% of the time.
+There were 173 tied games or 17.30% of the time.
+
+(WITH AUTOMATION AND NO AI - Mixer)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): y
+Would you like the computer to have AI? (y/n): n
+1. Repeater: User throws same choice everytime. 
+2. Rotater: User throws cyclically. 
+3. Reflector: User throws whatever the system threw last round.
+4. Randomizer: User throws randomly.
+5. Mixer: User throws a different strategy every 5 throws.
+Please choose a user (1-5): 
+5
+How many rounds do you want the user to play: 1000
+1000 games were played.
+The player won 310 games or 31.00% of the time.
+The computer won 475 games or 47.50% of the time.
+There were 215 tied games or 21.50% of the time.
+
+(WITH AUTOMATION AND YES AI - Mixer)
+********************************************
+*           Welcome to RPSLK!              *
+*   This game is similar to rock, paper,   *
+*   scissors in except there two extra     *
+*       options: lizard and spock.         *
+********************************************
+
+'r' = Rock
+'p' = Paper
+'s' = Scissors
+'l' = Lizard
+'k' = Spock
+'z' = Quit
+
+Would you like to automate the user? (y/n): y
+Would you like the computer to have AI? (y/n): y
+1. Repeater: User throws same choice everytime. 
+2. Rotater: User throws cyclically. 
+3. Reflector: User throws whatever the system threw last round.
+4. Randomizer: User throws randomly.
+5. Mixer: User throws a different strategy every 5 throws.
+Please choose a user (1-5): 
+5
+How many rounds do you want the user to play: 1000
+1000 games were played.
+The player won 291 games or 29.10% of the time.
+The computer won 569 games or 56.90% of the time.
+There were 140 tied games or 14.00% of the time.

@@ -1,0 +1,233 @@
+Assignment 2 – Output/Testing
+
+REASONING BEHIND MY TESTS ARE EXPLAINED IN THE JAVADOC OF SQUARESPARSEMATRIXTESTER CLASS
+
+*******************BLOCK MATRIX TESTING************************
+
+Output from Compiler:
+
+There are 6 rows and 6 cols in this matrix.
+Using toString to print out the matrix: 
+1 2 3 0 0 0 
+4 5 6 0 0 0 
+7 8 9 0 0 0 
+0 0 0 1 2 0 
+0 0 0 3 4 0 
+0 0 0 0 0 0 
+
+Using the get method to retrieve object at position (3, 4): 
+2
+Using the set method to set object at position (2, 1) to 4
+Showing result...
+1 2 3 0 0 0 
+4 5 6 0 0 0 
+7 4 9 0 0 0 
+0 0 0 1 2 0 
+0 0 0 3 4 0 
+0 0 0 0 0 0 
+
+Illegally using the set method to set object at (4, 0) to 1
+Your value would have broken the band.
+Value not added
+Adding this matrix to itself: 
+2 4 6 0 0 0 
+8 10 12 0 0 0 
+14 8 18 0 0 0 
+0 0 0 2 4 0 
+0 0 0 6 8 0 
+0 0 0 0 0 0 
+
+Multiplying this matrix by itself: 
+30 24 42 0 0 0 
+66 57 96 0 0 0 
+86 70 126 0 0 0 
+0 0 0 7 10 0 
+0 0 0 15 22 0 
+0 0 0 0 0 0 
+
+*******************TRIANGLE MATRIX TESTING************************
+
+Output from Compiler:
+There are 5 rows and 5 cols in this matrix.
+Using toString to print out the matrix: 
+1 0 0 0 0 
+2 1 0 0 0 
+2 2 1 0 0 
+1 2 2 2 0 
+1 2 3 4 5 
+
+Using the get method to retrieve object at position (3, 4): 
+0
+Using the set method to set object at position (2, 1) to 4
+Showing result...
+1 0 0 0 0 
+2 1 0 0 0 
+2 4 1 0 0 
+1 2 2 2 0 
+1 2 3 4 5 
+
+Illegally using the set method to set object at (1, 3) to 1
+Value not added as it would break triangle
+Adding this matrix to itself: 
+2 0 0 0 0 
+4 2 0 0 0 
+4 8 2 0 0 
+2 4 4 4 0 
+2 4 6 8 10 
+
+Multiplying this matrix by itself: 
+1 0 0 0 0 
+4 1 0 0 0 
+12 8 1 0 0 
+11 14 6 4 0 
+20 32 26 28 25 
+
+*******************BAND MATRIX TESTING************************
+
+There are 6 rows and 6 cols in this matrix.
+Using toString to print out the matrix: 
+1 2 3 0 0 0 
+4 5 6 0 0 0 
+7 8 9 0 0 0 
+0 0 0 1 2 0 
+0 0 0 3 4 0 
+0 0 0 0 0 0 
+
+Using the get method to retrieve object at position (3, 4): 
+2
+Using the set method to set object at position (2, 1) to 4
+Showing result...
+1 2 3 0 0 0 
+4 5 6 0 0 0 
+7 4 9 0 0 0 
+0 0 0 1 2 0 
+0 0 0 3 4 0 
+0 0 0 0 0 0 
+
+Illegally using the set method to set object at (4, 0) to 1
+Your value would have broken the band.
+Value not added
+Adding this matrix to itself: 
+2 4 6 0 0 0 
+8 10 12 0 0 0 
+14 8 18 0 0 0 
+0 0 0 2 4 0 
+0 0 0 6 8 0 
+0 0 0 0 0 0 
+
+Multiplying this matrix by itself: 
+30 24 42 0 0 0 
+66 57 96 0 0 0 
+86 70 126 0 0 0 
+0 0 0 7 10 0 
+0 0 0 15 22 0 
+0 0 0 0 0 0 
+
+There are 5 rows and 5 cols in this matrix.
+Using toString to print out the matrix: 
+1 0 0 0 0 
+2 1 0 0 0 
+2 2 1 0 0 
+1 2 2 2 0 
+1 2 3 4 5 
+
+Using the get method to retrieve object at position (3, 4): 
+0
+Using the set method to set object at position (2, 1) to 4
+Showing result...
+1 0 0 0 0 
+2 1 0 0 0 
+2 4 1 0 0 
+1 2 2 2 0 
+1 2 3 4 5 
+
+Illegally using the set method to set object at (1, 3) to 1
+Value not added as it would break triangle
+Adding this matrix to itself: 
+2 0 0 0 0 
+4 2 0 0 0 
+4 8 2 0 0 
+2 4 4 4 0 
+2 4 6 8 10 
+
+Multiplying this matrix by itself: 
+1 0 0 0 0 
+4 1 0 0 0 
+12 8 1 0 0 
+11 14 6 4 0 
+20 32 26 28 25 
+
+There are 5 rows and 5 cols in this matrix.
+The width of the band is: 3
+Using toString to print out the matrix: 
+6 6 0 0 0 
+6 2 4 0 0 
+0 2 4 6 0 
+0 0 4 6 8 
+0 0 0 6 8 
+
+Using the get method to retrieve object at position (3, 4): 
+8
+Using the set method to set object at position (2, 1) to 4
+Showing result...
+6 6 0 0 0 
+6 2 4 0 0 
+0 4 4 6 0 
+0 0 4 6 8 
+0 0 0 6 8 
+
+Illegally using the set method to set object at (1, 3) to 1
+Value must be inside the band. 
+Value not set
+Adding this matrix to itself: 
+12 12 0 0 0 
+12 4 8 0 0 
+0 8 8 12 0 
+0 0 8 12 16 
+0 0 0 12 16 
+
+Multiplying this matrix by itself: 
+72 48 24 0 0 
+48 56 24 24 0 
+24 24 56 60 48 
+0 16 40 108 112 
+0 0 24 84 112 
+
+There are 5 rows and 5 cols in this matrix.
+The width of the band is: 3
+Using toString to print out the matrix: 
+3 3 3 0 0 
+3 1 2 3 0 
+2 1 2 3 4 
+0 1 2 3 4 
+0 0 2 3 4 
+
+Using the get method to retrieve object at position (3, 4): 
+4
+Using the set method to set object at position (2, 1) to 4
+Showing result...
+3 3 3 0 0 
+3 1 2 3 0 
+2 4 2 3 4 
+0 1 2 3 4 
+0 0 2 3 4 
+
+Illegally using the set method to set object at (4, 0) to 1
+Value must be inside the band. 
+Value not set
+Adding this matrix to itself: 
+9 9 3 0 0 
+9 3 6 3 0 
+2 8 6 9 4 
+0 1 6 9 12 
+0 0 2 9 12 
+
+Multiplying this matrix by itself: 
+36 36 24 18 0 
+24 28 24 30 24 
+36 28 36 54 56 
+6 10 24 54 56 
+0 8 20 54 56 
+
+
+
